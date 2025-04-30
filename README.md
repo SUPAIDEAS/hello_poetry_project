@@ -4,9 +4,13 @@ Hello World Project using poetry (without using requirements.txt and setup.py)
 # How to setup
 
 ## poetry Install and setup
-
+```shell
 ➜ cd /<your_dir>/repos/
 ➜  curl -sSL https://install.python-poetry.org | python3 -
+```
+
+output:
+```shell
 
 Retrieving Poetry metadata
 
@@ -16,10 +20,10 @@ This will download and install the latest version of Poetry,
 a dependency and package manager for Python.
 
 It will add the `poetry` command to Poetry's bin directory, located at:
-```shell
+
 /<your_user_home>/.local/bin
 
-```
+
 
 You can uninstall at any time by executing this script with the --uninstall option,
 and these changes will be reverted.
@@ -38,6 +42,9 @@ Alternatively, you can call Poetry explicitly with `/<your_dir>/.local/bin/poetr
 You can test that everything is set up by executing:
 
 `poetry --version`
+```
+
+Test poetry CLI:
 ```shell
 (.venv_3_12) ➜  etl-testing poetry --version 
 zsh: command not found: poetry
