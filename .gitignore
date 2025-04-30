@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#Pycharm related
+.DS_Store
+.idea/
+.venv_3_12/
