@@ -130,3 +130,25 @@ Hello, Poetry world!
 
 (.venv_3_12) ➜  hello_poetry_project 
 ```
+
+## Unit Test
+In PyCharm the Unit test "Run" (Play) button was not activated(not visible)
+
+### Fix:
+```shell
+
+(.venv_3_12) ➜  hello_poetry_project git:(poetry_hello) ✗ poetry install
+Installing dependencies from lock file
+
+Package operations: 4 installs, 0 updates, 0 removals
+
+  - Installing iniconfig (2.1.0)
+  - Installing packaging (25.0)
+  - Installing pluggy (1.5.0)
+  - Installing pytest (7.4.4)
+
+Installing the current project: hello-poetry-project (0.1.0)
+(.venv_3_12) ➜  hello_poetry_project git:(poetry_hello) ✗
+```
+
+Now got activated
